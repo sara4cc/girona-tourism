@@ -87,7 +87,7 @@ export default function Navbar({ onGoHome, onGoVisit, currentView, reserves = []
       <div className={`resSlide ${openReserves ? "resSlide--open" : ""}`} onClick={() => setOpenReserves(false)}>
         <div className="resSlide_panel" onClick={(e) => e.stopPropagation()}>
           <div className="resSlide_top">
-            <h3 className="resSlide_title">Reserves</h3>
+            <h3 className="resSlide_title">Your plan</h3>
             <button className="resSlide_close" type="button" onClick={() => setOpenReserves(false)}>
               ✕
             </button>
