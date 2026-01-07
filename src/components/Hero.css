@@ -1,0 +1,107 @@
+.hero{
+  padding: 56px 0 22px;
+}
+
+.hero_inner{
+  width: min(1100px, calc(100% - 40px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.hero_pill{
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 999px;
+  background: rgba(255,255,255,.04);
+  color: black;
+  font-weight: 800;
+  margin: 0 0 14px;
+}
+
+.hero_title{
+  margin: 0 0 10px;
+  font-size: clamp(32px, 5vw, 54px);
+  line-height: 1.05;
+  color: black;
+}
+
+.hero_subtitle{
+  margin: 0 0 18px;
+  color: black;
+  max-width: 52ch;
+}
+
+.hero_menu{
+  display: grid;
+  gap: 10px;
+}
+
+.hero_menuItem{
+  display: block;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 20px;
+  padding: 14px 14px;
+  background: rgba(255,255,255,.04);
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 10px 26px rgba(0,0,0,.22);
+  transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
+}
+
+.hero_menuItem:hover{
+  transform: translateY(-1px);
+  background: rgba(255,255,255,.06);
+  border-color: rgba(255,255,255,.18);
+}
+
+.hero_menuTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.hero_menuLabel{
+  font-weight: 950;
+  font-size: 16px;
+}
+
+.hero_arrow{
+  opacity: .8;
+  font-weight: 900;
+}
+
+.hero_menuDesc{
+  margin-top: 6px;
+  color: black;
+  font-weight: 650;
+  font-size: 13.5px;
+}
+
+.hero_image{
+  height: 430px;
+  width: 100%;
+  border-radius: calc(20px + 8px);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 14px 34px rgba(0,0,0,.35);
+  overflow: hidden;
+  position: relative;
+
+}
+
+.hero_imageBadge{
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(11, 15, 20, .55);
+  color: black;
+  font-weight: 800;
+}
