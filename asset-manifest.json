@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/girona-tourism/static/css/main.b74fff2b.css",
+    "main.js": "/girona-tourism/static/js/main.6400bc37.js",
+    "static/js/453.9d77d8c1.chunk.js": "/girona-tourism/static/js/453.9d77d8c1.chunk.js",
+    "static/media/audio.MP3": "/girona-tourism/static/media/audio.7bd431dd586954467134.MP3",
+    "static/media/onyar.jpg": "/girona-tourism/static/media/onyar.44702a10846d74d09811.jpg",
+    "static/media/banys.jpg": "/girona-tourism/static/media/banys.69edec6c5e415cb99923.jpg",
+    "static/media/girona.png": "/girona-tourism/static/media/girona.cef95dab29944d3498f8.png",
+    "static/media/call.jpg": "/girona-tourism/static/media/call.fcecd7bbb12f46cb86cd.jpg",
+    "static/media/muralles.jpg": "/girona-tourism/static/media/muralles.598261e10cdc6a7d4442.jpg",
+    "static/media/stFelix.jpg": "/girona-tourism/static/media/stFelix.a06d8c7e24f20717a3f4.jpg",
+    "static/media/galligants.jpg": "/girona-tourism/static/media/galligants.0ff5a6652ef91fd5b16b.jpg",
+    "static/media/museu.jpg": "/girona-tourism/static/media/museu.60b15601ce17efef7f03.jpg",
+    "static/media/catedral.jpg": "/girona-tourism/static/media/catedral.82fac681adf4eba240fb.jpg",
+    "index.html": "/girona-tourism/index.html",
+    "main.b74fff2b.css.map": "/girona-tourism/static/css/main.b74fff2b.css.map",
+    "main.6400bc37.js.map": "/girona-tourism/static/js/main.6400bc37.js.map",
+    "453.9d77d8c1.chunk.js.map": "/girona-tourism/static/js/453.9d77d8c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b74fff2b.css",
+    "static/js/main.6400bc37.js"
+  ]
+}
