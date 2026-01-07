@@ -2,7 +2,7 @@ import React from "react";
 import "./VideoSection.css";
 import audio from "../videosNAudios/audio.MP3"
 
-const YT_ID = "zxouyEeabew";
+const YT_ID = "zxouyEeabew"; // id video
 
 export default function VideoSection() {
   return (
