@@ -102,7 +102,7 @@
 
 .resBox{
   border: 1px solid rgba(0,0,0,.08);
-  background: #36363643;
+  background: rgba(1, 22, 55, 0.774);
   border-radius: 18px;
   padding: 14px;
   box-shadow: 0 12px 28px rgba(0,0,0,.18);
@@ -120,15 +120,15 @@
   margin: 0;
   font-size: 18px;
   font-weight: 950;
-  color: #111;
+  color: white;
 }
 
 .resBox_clear{
   padding: 8px 10px;
   border-radius: 999px;
-  border: 1px solid rgba(0,0,0,.12);
+  border: 1px solid rgba(91, 91, 91, 0.655);
   background: #f6f6f6;
-  color: #111;
+  color: black;
   font-weight: 850;
   cursor: pointer;
 }
@@ -157,7 +157,7 @@
   align-items: center;
   gap: 10px;
   border: 1px solid rgba(0,0,0,.08);
-  background: #5c5c5c44;
+  background: #b2b2b2b9;
   border-radius: 14px;
   padding: 10px 10px;
 }
